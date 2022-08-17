@@ -31,7 +31,7 @@ function App() {
         <br/>
         <input onChange={onInputChange} placeholder="money"/>
         <br/>
-        <h3>살 수 있는 코인의 개수 : {inputValue/value}</h3>
+        <h3>살 수 있는 Coin의 개수 : {inputValue/value}</h3>
       </div>
       }
     </div>
