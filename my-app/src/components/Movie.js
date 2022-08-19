@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
-
+import { Link } from "react-router-dom";
 function Movie({medium_cover_image, title, summary, genres}){
     return(
         <div>
             <img src={medium_cover_image} alt={title}/>
-            <h2>{title}</h2><p>{summary}</p>
+            <h2><Link to="/movie">{title}</Link></h2><p>{summary}</p>
             <ul>
                 {genres.map(g => <li key={g}>{g}</li>)}
             </ul>
@@ -19,4 +19,4 @@ Movie.propTypes = {
     genres:PropTypes.arrayOf(PropTypes.string).isRequired,
 }
 
-export default Movie;
+export default Movie; 

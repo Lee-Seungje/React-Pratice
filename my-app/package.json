@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "react-router-dom": "^5.3.0"
+  },
+  "name": "my-app",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
