@@ -1,1 +1,1 @@
-# React-Pratice
+# BeginnerForReact에서 진행
